@@ -1,0 +1,5 @@
+runtime: python39  # You can also use python38 or python310
+handlers:
+  - url: /
+    static_files: index.html
+    upload: index.html
